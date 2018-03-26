@@ -1,5 +1,5 @@
 import static java.lang.Math.*;
-public class Math {
+public class MathTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -24,5 +24,7 @@ public class Math {
 		System.out.println(h);
 		System.out.println(i);
 	}
+
+	
 
 }
