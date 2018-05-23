@@ -21,3 +21,7 @@ else:
 	x_increment = 3;
 alien3['x_position'] = alien3['x_position'] + x_increment
 print("new x-position:" + str(alien3['x_position']))
+alien4 = {'color' :'green','points':5}
+print(alien4)
+del alien4['points']
+print(alien4)
