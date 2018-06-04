@@ -32,7 +32,7 @@
       <file leaf-file-name="car.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/car.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="780">
               <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
             </state>
           </provider>
@@ -47,11 +47,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1114 my_car.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1114 my_car.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1114 my_car.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
               <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="R.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/R.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1116 coding.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1116 coding.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -61,8 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1072 cities.py" />
-        <option value="$PROJECT_DIR$/1073 counting.py" />
         <option value="$PROJECT_DIR$/1074 ex 7-4 topping.py" />
         <option value="$PROJECT_DIR$/1075 tickets.py" />
         <option value="$PROJECT_DIR$/1076 confirmed_users.py" />
@@ -112,12 +128,14 @@
         <option value="$PROJECT_DIR$/1115 my_electric_car.py" />
         <option value="$PROJECT_DIR$/car.py" />
         <option value="$PROJECT_DIR$/1114 my_car.py" />
+        <option value="$PROJECT_DIR$/1116 import_restaurant.py" />
+        <option value="$PROJECT_DIR$/1117 coding.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="187" />
-    <option name="y" value="472" />
+    <option name="x" value="251" />
+    <option name="y" value="200" />
     <option name="width" value="1305" />
     <option name="height" value="745" />
   </component>
@@ -160,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1114 my_car">
+  <component name="RunManager" selected="Python.1117 coding">
     <configuration name="1110 electric car" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,24 +192,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1110 electric car.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="1112 ex 9-7 admin" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\codes\learn-Java-and-python\python\1112 ex 9-7 - ex 9-8 admin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,20 +251,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="1117 coding" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\codes\learn-Java-and-python\python\1116 coding.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.1110 electric car" />
-      <item itemvalue="Python.1112 ex 9-7 admin" />
       <item itemvalue="Python.1113 ex 9-9 electric update" />
       <item itemvalue="Python.1114 my_car" />
       <item itemvalue="Python.1115 my_electric_car" />
+      <item itemvalue="Python.1117 coding" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1117 coding" />
         <item itemvalue="Python.1114 my_car" />
         <item itemvalue="Python.1115 my_electric_car" />
         <item itemvalue="Python.1113 ex 9-9 electric update" />
         <item itemvalue="Python.1110 electric car" />
-        <item itemvalue="Python.1112 ex 9-7 admin" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +307,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20632738" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27235213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -312,20 +330,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1073 counting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1071 parrot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1074 ex 7-4 topping.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -635,7 +639,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/car.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="780">
           <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
         </state>
       </provider>
@@ -644,6 +648,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/R.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1116 coding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
