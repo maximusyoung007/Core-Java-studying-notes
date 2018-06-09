@@ -20,16 +20,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1056 favourite_language.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1056 favourite_language.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="1057 many_user.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1057 many_user.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="1058 ex 6-6 people.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1058 ex 6-6 people.py">
           <provider selected="true" editor-type-id="text-editor" />
@@ -62,11 +52,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1125 birthday.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1125 birthday.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1125 birthday.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="25" selection-start-column="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="learning_python.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learning_python.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1126 ex10-1 and ex10-2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1126 ex10-1 and ex10-2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -94,9 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1088 person.py" />
-        <option value="$PROJECT_DIR$/1089 greeter.py" />
-        <option value="$PROJECT_DIR$/1090 ex8-6 city_name.py" />
         <option value="$PROJECT_DIR$/1091 album.py" />
         <option value="$PROJECT_DIR$/1092 ex8-8 album.py" />
         <option value="$PROJECT_DIR$/1093 great_users.py" />
@@ -145,12 +150,15 @@
         <option value="$PROJECT_DIR$/1123 file_reader.py" />
         <option value="$PROJECT_DIR$/1124 pi_string.py" />
         <option value="$PROJECT_DIR$/1125 birthday.py" />
+        <option value="$PROJECT_DIR$/learning_python.txt" />
+        <option value="$PROJECT_DIR$/1126 python learning note.py" />
+        <option value="$PROJECT_DIR$/1126 ex10-1 and ex10-2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="302" />
-    <option name="y" value="80" />
+    <option name="x" value="202" />
+    <option name="y" value="85" />
     <option name="width" value="1305" />
     <option name="height" value="910" />
   </component>
@@ -159,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,7 +183,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,25 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1125 birthday">
-    <configuration name="1121 ex9-13 letter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1121 ex9-13 letter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.1126 python learning note">
     <configuration name="1122 ex9-14 dice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -284,20 +274,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="1126 python learning note" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\codes\learn-Java-and-python\python\1126 ex10-1 and ex10-2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.1121 ex9-13 letter" />
       <item itemvalue="Python.1122 ex9-14 dice" />
       <item itemvalue="Python.1123 file_reader" />
       <item itemvalue="Python.1124 pi_string" />
       <item itemvalue="Python.1125 birthday" />
+      <item itemvalue="Python.1126 python learning note" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1126 python learning note" />
         <item itemvalue="Python.1125 birthday" />
         <item itemvalue="Python.1124 pi_string" />
         <item itemvalue="Python.1123 file_reader" />
         <item itemvalue="Python.1122 ex9-14 dice" />
-        <item itemvalue="Python.1121 ex9-13 letter" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +323,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="242" y="64" width="1044" height="728" extended-state="0" />
+    <frame x="162" y="68" width="1044" height="728" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1699029" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -329,11 +337,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39951575" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -345,20 +353,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1092 ex8-8 album.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1093 great_users.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1094 printing_models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -661,6 +655,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning_python.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1126 ex10-1 and ex10-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>

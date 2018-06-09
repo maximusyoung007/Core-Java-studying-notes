@@ -1,0 +1,4 @@
+in python you can:
+    learn machine learning
+    build little game
+    and lots of other things
