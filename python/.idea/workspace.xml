@@ -32,8 +32,8 @@
       <file leaf-file-name="name_function.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/name_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+            <state relative-caret-position="92">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -50,8 +50,8 @@
       <file leaf-file-name="1150 test_name_function.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1150 test_name_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state relative-caret-position="207">
+              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -154,14 +154,14 @@
         <option value="$PROJECT_DIR$/1147 ex10-12 favourite number.py" />
         <option value="$PROJECT_DIR$/1148 ex10-13 remember_me.py" />
         <option value="$PROJECT_DIR$/1149 names.py" />
-        <option value="$PROJECT_DIR$/1150 test_name_function.py" />
         <option value="$PROJECT_DIR$/name_function.py" />
+        <option value="$PROJECT_DIR$/1150 test_name_function.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="268" />
-    <option name="y" value="142" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="132" />
+    <option name="y" value="141" />
     <option name="width" value="1305" />
     <option name="height" value="932" />
   </component>
@@ -331,7 +331,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="215" y="114" width="1044" height="745" extended-state="1" />
+    <frame x="106" y="113" width="1044" height="745" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1699029" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -339,7 +340,7 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29588607" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29588607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -630,15 +631,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/name_function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        <state relative-caret-position="92">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1150 test_name_function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="207">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
