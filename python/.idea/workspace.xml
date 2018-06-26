@@ -11,38 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1144 remember_me.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1144 remember_me.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="22" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1148 ex10-13 remember_me.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1148 ex10-13 remember_me.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="name_function.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/name_function.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="38" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="4" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="1149 names.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1149 names.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="270">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -50,7 +23,7 @@
       <file leaf-file-name="1151 cities.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1151 cities.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="270">
               <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
@@ -59,7 +32,7 @@
       <file leaf-file-name="1152 test_cities.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1152 test_cities.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="270">
               <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -71,7 +44,7 @@
       <file leaf-file-name="1150 test_name_function.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1150 test_name_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="240">
               <caret line="9" column="66" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="66" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -83,19 +56,47 @@
       <file leaf-file-name="city_function.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/city_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
+            <state relative-caret-position="180">
               <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="survey.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="survey.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/survey.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="330">
               <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1156 Hanoi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1156 Hanoi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1157 slice.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1157 slice.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1010 ex2-9 favourite number.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1010 ex2-9 favourite number.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="1018 ex3-8 look at the world.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1018 ex3-8 look at the world.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -103,8 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Admin.py" />
-        <option value="$PROJECT_DIR$/users.py" />
         <option value="$PROJECT_DIR$/1119 ex9-12.py" />
         <option value="$PROJECT_DIR$/admin.py" />
         <option value="$PROJECT_DIR$/1120 favourtie language.py" />
@@ -154,12 +153,14 @@
         <option value="$PROJECT_DIR$/1152 test_cities.py" />
         <option value="$PROJECT_DIR$/city_function.py" />
         <option value="$PROJECT_DIR$/survey.py" />
+        <option value="$PROJECT_DIR$/1156 Hanoi.py" />
+        <option value="$PROJECT_DIR$/1157 slice.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="802" />
-    <option name="y" value="80" />
+    <option name="x" value="357" />
+    <option name="y" value="198" />
     <option name="width" value="1305" />
     <option name="height" value="885" />
   </component>
@@ -187,7 +188,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Python-Project/plane-war" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -207,43 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1152 test_cities">
-    <configuration name="1148 ex10-13 remember_me" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1148 ex10-13 remember_me.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="1149 names" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1149 names.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.1157 slice">
     <configuration name="1150 test_name_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,20 +263,56 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="1156 Hanoi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1156 Hanoi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="1157 slice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1157 slice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.1148 ex10-13 remember_me" />
-      <item itemvalue="Python.1149 names" />
       <item itemvalue="Python.1150 test_name_function" />
       <item itemvalue="Python.1151 test_cities" />
       <item itemvalue="Python.1152 test_cities" />
+      <item itemvalue="Python.1156 Hanoi" />
+      <item itemvalue="Python.1157 slice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1157 slice" />
+        <item itemvalue="Python.1156 Hanoi" />
         <item itemvalue="Python.1152 test_cities" />
         <item itemvalue="Python.1151 test_cities" />
         <item itemvalue="Python.1150 test_name_function" />
-        <item itemvalue="Python.1149 names" />
-        <item itemvalue="Python.1148 ex10-13 remember_me" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +330,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="642" y="64" width="1044" height="708" extended-state="0" />
+    <frame x="276" y="280" width="1044" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1699029" />
@@ -337,7 +338,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29411766" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29411766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -360,18 +361,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1039 ex5-5 alien_color.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1037 ex5-3 alien_color.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1036 topping.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1035 amusement_park.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/1034 voting.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -584,22 +573,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1144 remember_me.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="600">
           <caret line="20" column="22" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1148 ex10-13 remember_me.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="600">
           <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/name_function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="38" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="120">
+          <caret line="4" column="38" selection-start-line="1" selection-start-column="4" selection-end-line="4" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -608,8 +597,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1149 names.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="270">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -622,14 +611,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1151 cities.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="270">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1152 test_cities.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="270">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -639,7 +628,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1150 test_name_function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="240">
           <caret line="9" column="66" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="66" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -649,15 +638,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/city_function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="180">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/survey.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="330">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1156 Hanoi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1010 ex2-9 favourite number.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1018 ex3-8 look at the world.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1157 slice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
