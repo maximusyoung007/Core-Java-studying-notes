@@ -14,7 +14,8 @@ for k,v in d.items():
 print([k + '=' + 'v'for k,v in d.items()])
 L = ['HELLO','WORLD','IBM','APPLE']
 print([s.lower() for s in L])
-L2 = ['HELLO','WORLD',18,'IBM','APPLE']
+L = ['HELLO','WORLD',18,'IBM','APPLE']
+print(L)
 for s in L:
     if isinstance(s,str):
         print(s)
