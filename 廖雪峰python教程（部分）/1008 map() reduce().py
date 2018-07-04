@@ -42,6 +42,18 @@ if prod([3, 5, 7, 9]) == 945:
     print('测试成功!')
 else:
     print('测试失败!')
+#利用map和reduce编写str2float函数
 def str2float(s):
-    DIGITS = {'0':0,'1':1,'2':2,'3':3,'4':4,'5':5,'6':6,'7':7,'8':8,'9':9}
-
+    L = s.split('.')  # 以小数点为分隔符，把字符串分为两部分
+    def f1(x, y):
+        return x * 10 + y
+    def f2(x, y):
+        return x / 10 + y
+    def str2num(str):
+        return {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9}[str]
+    q = list(map(str2num,L[0]))
+    u = list(map(str2num,L[1]))
+    b = u[::-1]
+    return reduce(f1,q) + reduce(f2,b) /10
+    #return reduce(f1, map(str2num, s[0])) + reduce(f2, list(map(str2num, s[1]))[::-1]) / 10
+print(str2float('123.4567886'))
