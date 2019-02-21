@@ -6,4 +6,4 @@ Python：《Python编程：从入门到实践》
 
 C语言
 
-前端（HTML、HTML5、css、JavaScript）：W3Cschool
+前端（HTML、HTML5、css、JavaScript）
