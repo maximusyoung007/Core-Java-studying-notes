@@ -13,7 +13,7 @@ insert into category values(null,'馋嘴零食','五香瓜子欢迎品尝');
 select * from category;
 select name,discription from category;
 
-相关商品
+相关商品：
 create table product(
     id int primary key auto_increment,
     name varchar(10),
