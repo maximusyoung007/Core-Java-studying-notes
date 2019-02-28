@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE stus SYSTEM "stus.dtd">
+<stus>
+	<stu id = "111">
+		<name>mike</name>
+		<age>19</age>
+	</stu>
+	
+	<stu id = "112">
+		<name>david</name>
+		<age>20</age>
+	</stu>  
+</stus>
