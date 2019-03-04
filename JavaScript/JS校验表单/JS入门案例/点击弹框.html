@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			function clickme(){
+				//alert("oh,smart boy")
+				var di = document.getElementById("exchange")
+				//di.innerText = "<font color='red'>内容被替换掉了</font>"
+				di.innerHTML = "<font color='red'>内容被替换掉了</font>"
+			}
+		</script>
+	</head>
+	<body>
+		<input type="button" value="click me" onclick="clickme()" />
+		<div id="exchange">替换这部分内容</div>
+	</body>
+</html>

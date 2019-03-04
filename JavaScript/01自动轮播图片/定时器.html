@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			// window.setInterval("alert('123');",2000)
+			function test(){
+				console.log("setInterval调用了")
+			}
+			//setInterval("test()",2000)
+			//setTimeout("test()",2000)
+			
+			var time
+			function startTime(){
+				time = setInterval("test()",2000)
+			}
+			function endTime(){
+				clearInterval(time)
+			}
+		</script>
+	</head>
+	<body>
+		<input type="button" value="开启定时器" onclick="startTime()" /></br>
+		<input type="button" value="取消定时器" onclick="endTime()" /></br>
+	</body>
+</html>

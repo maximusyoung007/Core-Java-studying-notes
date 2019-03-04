@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../js/regutils.js"></script> 
+		<script>
+			function showTips(spanId,msg){
+				var tips = document.getElementById(spanId)
+				tips.innerHTML = msg
+			}
+			function checkname(){
+				//获取用户输入的内容
+				var uvalue = document.getElementById("username").value
+				var span = document.getElementById("span_username")
+				if(uvalue.length <= 6)
+					span.innerHTML = "<font size='2' color='red'>用户名太短</font>"
+				else
+					span.innerHTML = "<font size='2' color='green'>用户名可用</font>"
+			}
+			function checkpass(){
+				var upass = document.getElementById("password").value
+				var span = document.getElementById("span_password")
+				if(upass.length <= 6)
+					span.innerHTML = "<font size='2' color='red'>密码太短</font>"
+				else
+					span.innerHTML = "<font size='2' color='green'>密码可用</font>"
+			}	
+			function recheckpass(){
+				var pass = document.getElementById("password").value
+				var upass = document.getElementById("repassword").value
+				var span = document.getElementById("span_repassword")
+				if(pass == upass)
+					span.innerHTML = "<font size='2' color='green'>密码正确</font>"
+				else
+					span.innerHTML = "<font size='2' color='green'>两次密码不一致</font>"
+			}
+			function checkemails(){
+				var uemail = document.getElementById("email").value
+				var flag = checkEmail(uemail)
+				var span = document.getElementById("span_email")
+				if(flag)
+					span.innerHTML = "<font size='2' color='green'>邮箱可用</font>"
+				else
+					span.innerHTML = "<font size='2' color='red'>邮箱不可用</font>"
+			}
+			function checkForm(){
+				var flag = checkname() && checkpass() && recheckpass() && checkemails()
+				if(flag){
+					return true
+					break
+				}
+				return false
+			}
+		</script>
+	</head>
+	<body>
+		<form action="../01自动轮播图片/图片自动轮播.html" onsubmit="return checkForm()">
+			用户名：<input type="text" id="username" onfocus="showTips('span_username','用户名不能小于6位')" onblur="checkname()" onkeyup="checkname()"/><span id="span_username"></span><br />
+			密码：<input type="password" id="password" onfocus="showTips('span_password','密码长度不能小于6')" onblur="checkpass()"onkeyup="checkpass()"/><span id="span_password"></span><br />
+			确认密码：<input type="password" id="repassword" onfocus="showTips('span_repassword','密码长度不能小于6')" onblur="recheckpass()" onkeyup="recheckpass()"/><span id="span_repassword"></span><br />
+			邮箱：<input type="text" id="email" onfocus="showTips('span_email','@163.com @qq.com @126.com')" onblur="checkemails()" onkeyup="checkeamils()"/><span id="span_email"></span><br />
+			手机号：<input type="text" id="text" /><br />
+			<input type="submit" value="提交" />
+		</form> 
+	</body>
+</html>

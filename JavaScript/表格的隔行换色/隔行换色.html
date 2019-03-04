@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			function init(){
+				var tab = document.getElementById("tb1")
+				var rows = tab.rows
+				for(var i = 0;i < rows.length;i++){
+					var row = rows[i]
+					if(i % 2 == 0){
+						row.bgColor = "red"
+					}
+					else 
+						row.bgColor = "yellow"
+				}
+			}
+			function checkAll(){
+				var check1 = document.getElementById("ch1")
+				//获得当前check的状态
+				var check = check1.checked;
+				//var checktotal = document.getElementsByTagName("input")
+				var checktotal = document.getElementsByName("checkone")
+				for(var i = 0;i < checktotal.length;i++){
+					var checkOne = checktotal[i]
+					checkOne.checked = check;
+				}
+			}
+		</script>
+	</head>
+	<body onload="init()">
+		<table border="1px" width="600px" align="center" id="tb1">
+			<tr>
+				<td>
+					<input type="checkbox" onclick="checkAll()" id="ch1"/>
+				</td>
+				<td>分类id</td>
+				<td>分类名称</td>
+				<td>分类商品</td>
+				<td>分类描述</td>
+				<td>操作</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" name="checkone"/>
+				</td>
+				<td>1</td>
+				<td>手机数码</td>
+				<td>iPhone5s</td>
+				<td>嗯哼</td>
+				<td>
+					<a href="#">修改</a>|<a href="#">删除</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" name="checkone" />
+				</td>
+				<td>2</td>
+				<td>鞋靴箱包</td>
+				<td>新百伦</td>
+				<td>总统跑鞋</td>
+				<td>
+					<a href="#">修改</a>|<a href="#">删除</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" name="checkone"/>
+				</td>
+				<td>3</td>
+				<td>家用电器</td>
+				<td>美的空调</td>
+				<td>安静无声</td>
+				<td>
+					<a href="#">修改</a>|<a href="#">删除</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" name="checkone"/>
+				</td>
+				<td>4</td>
+				<td>馋嘴零食</td>
+				<td>旺仔小馒头</td>
+				<td>想吃你就多吃点</td>
+				<td>
+					<a href="#">修改</a>|<a href="#">删除</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" name="checkone"/>
+				</td>
+				<td>5</td>
+				<td>香烟酒水</td>
+				<td>二锅头</td>
+				<td>何以解忧，唯有二锅头</td>
+				<td>
+					<a href="#">修改</a>|<a href="#">删除</a>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

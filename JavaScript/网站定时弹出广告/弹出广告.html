@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			function dis(){
+				var i = document.getElementById("img1")
+				i.style.display="none"
+			}
+			function showAd(){
+				var i = document.getElementById("img1")
+				i.style.display="block"
+				setTimeout("dis()",2000)
+			}
+			function init(){
+				setTimeout("showAd()",2000)
+			}
+		</script>
+	</head>
+	<body onload="init()">
+		<img id="img1" width="100%" src="../img/bartlesvillecf.jpg" style="display: none"/> 
+	</body>
+</html>
