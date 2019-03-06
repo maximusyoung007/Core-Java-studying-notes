@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../js/jquery-1.11.0.js" ></script>
+		<script>
+			
+			var cities=["鼓楼区","浦口区","玄武区","栖霞区"]
+			//JQ对象调用遍历
+			$(cities).each(function(i,n){
+				alert(i + "-----" + n)
+			})
+			//JQ函数调用遍历
+			$.each(cities,function(i,n){
+				alert(i + ">>>>" + n)
+			})
+			function output(i,n){
+				alert(i + "!!!!!!!!!" + n)
+			}
+			function bianli(a){
+				for(var i = 0;i < a.length;i++){
+						var item = a[i]
+						output(i,item)
+				}
+			}
+			bianli(cities)
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

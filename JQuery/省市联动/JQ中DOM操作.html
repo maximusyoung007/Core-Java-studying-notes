@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../js/jquery-1.11.0.js"></script>
+		<script>
+			$(function(){
+				$("#button1").click(function(){
+					//$("#div1").append("<font color='red' size='15'>我要找工作！！！</font>")
+					//$("<font color='red' size='15'>我要找工作！！！</font>").appendTo("#div1")
+					$("#div1").after("<font color='red' size='15'>我要找工作！！！</font>")
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<input type="button" value="点我，添加内容" id="button1"/><br />
+		<div id="div1">
+			点我添加内容
+		</div>
+	</body>
+</html>

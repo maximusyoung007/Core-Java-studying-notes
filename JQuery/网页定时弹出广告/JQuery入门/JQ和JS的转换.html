@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../../js/jquery-1.11.0.js" ></script>
+		<script>
+			function JSchange(){
+				var div = document.getElementById("div1")
+				div.innerHTML = "内容被JS修改了"
+				//将JS对象转化成JQ对象
+				$(div).html("转成JQ对象输出内容")
+			}
+			$(function(){
+				$("#button2").click(function(){
+					$("#div1").html("内容被JQ修改了")
+					var $div = $("#div1")
+					//var jsDiv = $div.get(0)
+					var jsDiv = $div[0]
+					jsDiv.innerHTML = "JQ对象转换为JS对象成功了"
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<input type="button" value="JS修改内容" onclick="JSchange()"/>
+		<input type="button" value="JQ修改内容" id="button2"/>
+		<div id="div1">将要被修改的内容</div>
+	</body>
+</html>
