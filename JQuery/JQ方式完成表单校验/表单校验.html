@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!-- 
+			1.导入JQ文件
+			2.文档加载事件：在必填项后添加一个小红点
+			3.表单校验确定事件：blur focus keyup
+			4.提交表单：submit
+		-->
+		<script type="text/javascript" src="../js/jquery-1.11.0.js"></script>
+		<script>
+			//必填项后面加小红点
+			$(function(){
+				$(".necessary").after("<font color='red' size='2'>*</font>")
+				//确定事件
+				$(".necessary").blur(function(){
+					var value = $(this).val()
+					$(this).parent().find(".formtips").remove()
+					if($(this).is("#username")){
+						if(value.length < 6){
+							$(this).parent().append("<span class='formtips onError'>用户名太短</span>")
+						}
+						else{
+							$(this).parent().append("<span class='formtips onSuccess'>用户名可用</span>")
+						}
+					}
+					if($(this).is("#password")){
+						if(value.length < 3){
+							$(this).parent().append("<span class='formtips onError'>密码太短</span>")
+						}
+						else{
+							$(this).parent().append("<span class='formtips onSuccess'>密码可用</span>")
+						}
+					}
+				}).focus(function(){
+					$(this).triggerHandler("blur")
+				}).keyup(function(){
+					$(this).triggerHandler("blur")
+				})
+				$("form").submit(function(){
+					$(".necessary").trigger("blur")
+					if($(".onError").length > 0){
+						return false
+					}
+					return true
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<from action="../index.html">
+			<div>
+				姓名：<input type="text" class="necessary" id="username"/>
+			</div>
+			<div>
+				密码：<input type="password" class="necessary" id="password"/>
+			</div>
+			<div>
+				手机号：<input type="tel" />
+			</div>
+			<div>
+				<input type="submit" value="提交"/>
+			</div>
+		</from>
+	</body>
+</html>
