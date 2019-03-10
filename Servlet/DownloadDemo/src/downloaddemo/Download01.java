@@ -16,8 +16,11 @@ public class Download01 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//获取要下载的文件名
 		String fileName = request.getParameter("filename");
+		//System.out.println("filename:" + fileName);
+		fileName = new String(fileName.getBytes("ISO-8859-1"),"UTF-8");
 		//获取这个文件在Tomcat中的绝对路径
 		String path = getServletContext().getRealPath("download/" + fileName);
+		System.out.println("path:" + path);
 		//转化成输入流
 		//response.setHeader("Content-Disposition", "attachment;filename=" + fileName);
 		InputStream is = new FileInputStream(path);

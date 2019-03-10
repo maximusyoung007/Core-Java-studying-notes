@@ -11,12 +11,12 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>Downloaad01</display-name>
-    <servlet-name>Downloaad01</servlet-name>
-    <servlet-class>downloaddemo.Downloaad01</servlet-class>
+    <display-name>Download01</display-name>
+    <servlet-name>Download01</servlet-name>
+    <servlet-class>downloaddemo.Download01</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Downloaad01</servlet-name>
-    <url-pattern>/Downloaad01</url-pattern>
+    <servlet-name>Download01</servlet-name>
+    <url-pattern>/Download01</url-pattern>
   </servlet-mapping>
 </web-app>
