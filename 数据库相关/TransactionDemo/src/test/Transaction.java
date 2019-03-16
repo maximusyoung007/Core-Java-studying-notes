@@ -27,7 +27,7 @@ public class Transaction {
 			ps.setInt(2, 1);
 			ps.executeUpdate();//没进行一次操作都需要一个该语句
 			//给第二个人减一百
-			int a = 10 / 0;
+			//int a = 10 / 0;
 			ps.setInt(1, 100);
 			ps.setInt(2, 2);
 			ps.executeUpdate();
