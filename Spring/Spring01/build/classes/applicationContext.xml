@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:p="http://www.springframework.org/schema/p"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+ 
+    <!-- Spring入门配置 -->
+	<bean id="userDAO"  class="springDemo01.UserDaoImpl">
+		<property name="name" value="West London"/>
+	</bean>
+	<bean id="userH" class="springDemo01.UserDaoHibernateImp" ></bean>
+	
+	<!-- Spring的Bean的生命周期配置 -->
+	<bean id="CustomDao" class="SpringDemo02.CustomDaoImpl" scope="prototype" init-method="setup" destroy-method="destroy"></bean>
+	<!-- Spring属性注入的方式============ -->
+	<!-- 构造方法的方式 -->
+	<bean id="car" class="springDemo04.Cars">
+		<constructor-arg name="name" value="BMW"/>
+		<constructor-arg name="price" value="800000"/>
+	</bean>
+	
+	<!-- set方法的方式 -->
+	<!-- 
+	<bean id="car2" class="springDemo04.Cars02">
+		<property name="name" value="hongqi"></property>
+		<property name="price" value="60000"></property>
+	</bean>
+	 -->
+		
+	<!-- set方法注入对象类型的属性 -->
+	<!-- value设置普通类型的值，ref设置其他类的值 -->
+	<!-- 
+	<bean id="buyer" class="springDemo04.Buyer">
+		<property name="name" value="jobs"></property>
+		<property name="car2" ref="car2"></property>
+	</bean>
+	 -->
+	
+	<!-- 将car2和buyer改成p名称空间的方式 -->
+	<!--  
+	<bean id="car2" class="springDemo04.Cars02" p:name="北京现代" p:price="80000"></bean>
+	<bean id="buyer" class="springDemo04.Buyer" p:name="碧瑶" p:car2-ref="car2"></bean>
+	-->
+	
+	<!-- SpEl属性注入 -->
+	<bean id="carinfo" class="springDemo04.CarInfo"></bean>
+	<bean id="car2" class="springDemo04.Cars02" >
+		<property name="name" value="#{carinfo.name}"></property>
+		<property name="price" value="#{carinfo.calculatePrice()}"></property>
+	</bean>
+	<bean id="buyer" class="springDemo04.Buyer" >
+		<property name="name" value="#{'小玥玥'}"></property>
+		<property name="car2" value="#{car2}"></property>
+	</bean>
+	
+	<!-- 集合属性的注入 -->
+	<!-- 注入数组类型，和list相同 -->
+	<bean id="collectionBean" class="springDemo05.CollectionBean">
+		<!-- 数组 -->
+		<property name="arrays">
+		 	<list>
+		 		<value>pity</value>
+		 		<value>hopeless</value>
+		 		<value>sad</value>
+		 		<value>unhappy</value>
+		 	</list>
+		</property>
+		<!-- 集合 -->
+		<property name="list">
+			<list>
+				<value>PITY</value>
+		 		<value>hopeless</value>
+		 		<value>sad</value>
+		 		<value>unhappy</value>
+			</list>
+		</property>
+		<property name="set">
+			<set>
+				<value>PITY</value>
+		 		<value>hopeless</value>
+		 		<value>sad</value>
+		 		<value>unhappy</value>
+			</set>
+		</property>
+		<property name="map">
+			<map>
+				<entry key="aaa" value="111"></entry>
+				<entry key="bbb" value="222"></entry>
+				<entry key="ccc" value="333"></entry>
+			</map>
+		</property>
+	</bean>
+</beans>
