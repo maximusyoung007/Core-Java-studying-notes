@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:aop="http://www.springframework.org/schema/aop" xsi:schemaLocation="
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:aop="http://www.springframework.org/schema/aop" 
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xsi:schemaLocation="
         http://www.springframework.org/schema/beans 
         http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/tx 
+        http://www.springframework.org/schema/tx/spring-tx.xsd
         http://www.springframework.org/schema/aop 
-        http://www.springframework.org/schema/aop/spring-aop.xsd"> <!-- bean definitions here -->
+        http://www.springframework.org/schema/aop/spring-aop.xsd"> <!-- bean definitions here -->  
+	<!-- 在配置文件中开启注解的AOP开发 -->
+	<aop:aspectj-autoproxy></aop:aspectj-autoproxy>
 	<!-- 配置目标对象，被增强的对象 -->
 	<bean id="productDao" class="SpringDemo01.ProductDaoImpl"/>
+	<bean id="orderDao" class="SpringDemo02.OrderDao"/>
+	<!-- 配置切面类 -->
 	<bean id="myAspect" class="SpringDemo01.MyAspectXML"/>
+	<bean id="myAspect2" class="SpringDemo02.MyAspectAnno"/>
 	
 	<!-- 通过AOP的配置对目标类产生代理 -->
 	<aop:config>
