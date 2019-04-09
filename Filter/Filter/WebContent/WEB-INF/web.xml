@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>Filter</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <filter>
+    <filter-name>FirstFilter</filter-name>
+    <filter-class>filter.FirstFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>FirstFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+  	<filter-name>EncodingFilter</filter-name>
+  	<filter-class>filter.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>FirstFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <servlet>
+    <servlet-name>HeroListServlet</servlet-name>
+    <servlet-class>servletdemo.HeroListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HeroListServlet</servlet-name>
+    <url-pattern>/listHero</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>HeroAddServlet</servlet-name>
+    <servlet-class>servletdemo.HeroAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HeroAddServlet</servlet-name>
+    <url-pattern>/addHero</url-pattern>
+  </servlet-mapping>
+</web-app>
