@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<script src="js/jquery/2.0.0/jquery.min.js"></script>
+<link href="css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+<script src="js/bootstrap/3.3.6/bootstrap.min.js"></script>
+<!-- 提示工具 -->
+<!-- 非bootstrap提示工具 -->
+<button style="margin-top:50px;" class="btn btn-dafault" title="这里显示提示信息">非BootStrp提示工具</button>
+<!-- 左侧提示 -->
+<button style="margin-top:50px;" type="button" class="btn btn-dafault" data-toggle="tooltip" data-placement="left" title="这里显示提示信息">左侧提示</button>
+<script >
+	$(function(){
+		$("[data-toggle='tooltip']").tooltip()
+	})
+</script>
+<!-- 右侧提示 -->
+<button style="margin-top:50px;" type="button" class="btn btn-dafault" data-toggle="tooltip" data-placement="right" title="此处显示提示信息">
+	右侧显示
+</button>
+<!-- 上侧显示 -->
+<button  style="margin-top:50px;"type="button" class="btn btn-dafault" data-toggle="tooltip" data-placement="top"title="此处显示提示信息">上侧显示</button>
+<!-- 下侧显示 -->
+<button  style="margin-top:50px;" type="button" class="btn btn-dafault" data-toggle="tooltip" data-placement="bottom" title="此处显示信息">
+	下侧显示
+</button>
