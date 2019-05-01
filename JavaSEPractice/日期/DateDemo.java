@@ -5,12 +5,12 @@ import java.util.Calendar;
 import java.util.Date;
 
 /*
- * ½èÖúËæ»úÊı£¬´´½¨Ò»¸ö´Ó1995.1.1 00:00:00 µ½ 1995.12.31 23:59:59 Ö®¼äµÄËæ»úÈÕÆÚ
+ * å€ŸåŠ©éšæœºæ•°ï¼Œåˆ›å»ºä¸€ä¸ªä»1995.1.1 00:00:00 åˆ° 1995.12.31 23:59:59 ä¹‹é—´çš„éšæœºæ—¥æœŸ
  */
 /*
- * Ö±½ÓÊä³öÒ»¸öDateÊÇÊä³öÒ»¸öÊ±¼ä
- * calendar.getTime()ÊÇ×ª±ä³ÉDateÀàĞÍµÄÊı¾İ
- * date.getTime() ºÍ System.currentTimeMillis()ÊÇÊä³öÒ»¸ölongĞÍÊı¾İ
+ * ç›´æ¥è¾“å‡ºä¸€ä¸ªDateæ˜¯è¾“å‡ºä¸€ä¸ªæ—¶é—´
+ * calendar.getTime()æ˜¯è½¬å˜æˆDateç±»å‹çš„æ•°æ®
+ * date.getTime() å’Œ System.currentTimeMillis()æ˜¯è¾“å‡ºä¸€ä¸ªlongå‹æ•°æ®
  */
 public class DateDemo {
 	public static void main(String[] args) {
@@ -23,6 +23,6 @@ public class DateDemo {
 		Double time3 = Math.random() * (time2.getTime() - time1.getTime());
 		long time = time1.getTime() + time3.longValue();
 		Date result = new Date(time);
-		System.out.println("1995ÄêÒ»¸öËæ»úµÄÊ±¼äÊÇ " + result);
+		System.out.println("1995å¹´ä¸€ä¸ªéšæœºçš„æ—¶é—´æ˜¯ " + result);
 	}
 }

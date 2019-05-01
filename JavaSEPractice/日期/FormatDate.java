@@ -15,14 +15,14 @@ public class FormatDate {
             ds[i] = getRandomDate(yearStart, yearEnd);
         }
          
-        System.out.println("µÃµ½µÄËæ»úÈÕÆÚÊı×é:");
+        System.out.println("å¾—åˆ°çš„éšæœºæ—¥æœŸæ•°ç»„:");
         for (int i = 0; i < ds.length; i++) {
             System.out.print(toString(ds[i])+"\t");
             if(2==i%3)
                 System.out.println();
         }
          
-        //Ñ¡Ôñ·¨ÅÅĞò
+        //é€‰æ‹©æ³•æ’åº
         for (int j = 0; j < ds.length-1; j++) {
             for (int i = j+1; i < ds.length; i++) {
                 String strTimeI = toString(ds[i],"HHmmss");
@@ -39,7 +39,7 @@ public class FormatDate {
             }
         }      
          
-        System.out.println("ÅÅĞòºóµÄËæ»úÈÕÆÚÊı×é:");
+        System.out.println("æ’åºåçš„éšæœºæ—¥æœŸæ•°ç»„:");
         for (int i = 0; i < ds.length; i++) {
             System.out.print(toString(ds[i])+"\t");
             if(2==i%3)
@@ -61,7 +61,7 @@ public class FormatDate {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy");
         try {
             Date dStart = sdf.parse(String.valueOf(yearStart)); // 1970
-            Date dEnd = sdf.parse(String.valueOf(yearEnd + 1)); // 2001 ²»ÊÇ 2000£¬ÒªÔÚ2001µÄ»ù´¡ÉÏ¼õÉÙÒÔºÁÃë£¬²Å±íÊ¾2000×îºóÒ»¿Ì
+            Date dEnd = sdf.parse(String.valueOf(yearEnd + 1)); // 2001 ä¸æ˜¯ 2000ï¼Œè¦åœ¨2001çš„åŸºç¡€ä¸Šå‡å°‘ä»¥æ¯«ç§’ï¼Œæ‰è¡¨ç¤º2000æœ€åä¸€åˆ»
             long timeStart = dStart.getTime();
             long timeEnd = dEnd.getTime() - 1;
             long timeRandom = (long) (timeStart + Math.random() * (timeEnd - timeStart));

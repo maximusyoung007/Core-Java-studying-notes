@@ -1,3 +1,4 @@
+
 package TimePractice;
 
 import java.text.SimpleDateFormat;
@@ -5,7 +6,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 /*
- * ÕÒ³öÏÂ¸öÔÂµÄµ¹ÊıµÚ3ÌìÊÇÄÄÌì
+ * æ‰¾å‡ºä¸‹ä¸ªæœˆçš„å€’æ•°ç¬¬3å¤©æ˜¯å“ªå¤©
  */
 public class CalendarDemo {
 	private static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -14,10 +15,10 @@ public class CalendarDemo {
         Calendar c = Calendar.getInstance();
         //Date now = c.getTime();
         c.set(2016,5,1,12,23,52);
-        System.out.println("¼ÙÉèµ±Ç°Ê±¼äÎª£º" + format(c.getTime()));
+        System.out.println("å‡è®¾å½“å‰æ—¶é—´ä¸ºï¼š" + format(c.getTime()));
         c.add(Calendar.MONTH, 2);
         c.add(Calendar.DATE, -3);
-        System.out.println("ÏÂ¸öÔÂµ¹ÊıµÚÈıÌìÎª £º" + format(c.getTime()));
+        System.out.println("ä¸‹ä¸ªæœˆå€’æ•°ç¬¬ä¸‰å¤©ä¸º ï¼š" + format(c.getTime()));
     }
  
     private static String format(Date time) {
