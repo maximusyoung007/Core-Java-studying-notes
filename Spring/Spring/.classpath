@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/ehcache-1.2.4.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/jstl.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/junit-4.9.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.aop-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.asm-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.aspects-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.beans-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.context.support-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.context-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.core-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.expression-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.instrument.tomcat-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.instrument-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.jdbc-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.jms-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.orm-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.oxm-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.test-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.transaction-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.web.portlet-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.web.servlet-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.web.struts-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.web-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/spring-core-3.2.0.M1.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/spring-web-3.2.0.M1.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/standard.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/aspectjweaver-1.6.9.jar"/>
+	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
+</classpath>
