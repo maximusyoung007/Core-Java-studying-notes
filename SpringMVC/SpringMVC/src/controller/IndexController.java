@@ -1,5 +1,7 @@
 package controller;
 
+import java.util.Date;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -21,6 +23,7 @@ public class IndexController{
 	public ModelAndView handleRequest(HttpServletRequest request,HttpServletResponse response) {
 		ModelAndView mav = new ModelAndView("index");
 		mav.addObject("message","Hello Spring MVC hhh");
+		//mav.addObject("date" , "由拦截器产生的时间：" + new Date());
 		return mav;
 	}
 	//客户端跳转
