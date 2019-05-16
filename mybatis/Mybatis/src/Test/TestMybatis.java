@@ -12,6 +12,8 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import pojo.Category;
+import pojo.Order;
+import pojo.OrderItem;
 import pojo.Product;
 
 public class TestMybatis {
@@ -70,23 +72,92 @@ public class TestMybatis {
 		for(Category c3 : cs2) {
 			System.out.println(c3.getName());
 		}*/
-		List<Category> cs = session.selectList("listCategory");
+		
+		/*List<Category> cs = session.selectList("listCategory");
 		for(Category c : cs) {
 			System.out.println(c);
 			List<Product> ps = c.getProducts();
 			for(Product p : ps) {
 				System.out.println("\t" + p);
 			}
-		}
+		}*/
 		
+		/*List<Product> ps = session.selectList("listProduct");
+		for(Product p : ps) {
+			System.out.println(p+" 对应的分类是 \t "+ p.getCategory());
+		}*/
+		//listOrder(session);
+		System.out.println("查询所有的");
+		List<Product> ps = session.selectList("listProduct");
+		for(Product p : ps) {
+			System.out.println(p);
+		}
+		/*System.out.println("模糊查询");
+		Map<String,Object> params = new HashMap<>();
+		params.put("name","a");
+		params.put("price","10");
+		List<Product> ps2 = session.selectList("listProduct",params);
+        for (Product p : ps2) {
+            System.out.println(p);
+        }  */
+		/*System.out.println("多条件查询");
+        Map<String,Object> params = new HashMap<>();
+        //params.put("name","a");
+        params.put("price","10");
+        List<Product> ps2 = session.selectList("listProduct",params);
+        for (Product p : ps2) {
+            System.out.println(p);
+        }  */
+		Product p = new Product();
+		p.setId(6);
+		p.setName("product z");
+		p.setPrice(92);
+		session.update("updateProduct",p);
+		System.out.println("查询更改后的：");
+		
+		listAll(session);
 		session.commit();
 		session.close();
 	}
 	
 	public static void listAll(SqlSession session) {
-		List<Category> cs = session.selectList("listCategory");
+		/*List<Category> cs = session.selectList("listCategory");
 		for(Category c : cs) {
 			System.out.println(c.getId() + " : " + c.getName());
+		}*/
+		List<Product> ps = session.selectList("listProduct");
+		for(Product p : ps) {
+			System.out.println(p);
 		}
+		
+	}
+	public static void listOrder(SqlSession session) {
+		List<Order> os = session.selectList("listOrder");
+		for(Order o : os) {
+			System.out.println(o.getCode());
+			List<OrderItem> ois = o.getOrderItems();
+			for(OrderItem oi : ois) {
+				System.out.format("\t%s\t%f\t%d%n", 
+				oi.getProduct().getName(),oi.getProduct().getPrice(),oi.getNumber());
+			}
+		}
+	}
+	private static void deleteOrderItem(SqlSession session) {
+		Order o1 = session.selectOne("getOrder",1);
+		Product p6 = session.selectOne("getProduct",6);
+		OrderItem oi = new OrderItem();
+		oi.setProduct(p6);
+		oi.setOrder(o1);
+		session.delete("deleteOrderItem",oi);
+	}
+	private static void addOrderItem(SqlSession session) {
+		Order o1 = session.selectOne("getOrder",1);
+		Product p6 = session.selectOne("getProduct",6);
+		OrderItem oi = new OrderItem();
+		oi.setProduct(p6);
+        oi.setOrder(o1);
+        oi.setNumber(200);
+         
+        session.insert("addOrderItem", oi);
 	}
 }
