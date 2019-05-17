@@ -2,6 +2,7 @@ package Test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -87,11 +88,11 @@ public class TestMybatis {
 			System.out.println(p+" 对应的分类是 \t "+ p.getCategory());
 		}*/
 		//listOrder(session);
-		System.out.println("查询所有的");
+		/*System.out.println("查询所有的");
 		List<Product> ps = session.selectList("listProduct");
 		for(Product p : ps) {
 			System.out.println(p);
-		}
+		}*/
 		/*System.out.println("模糊查询");
 		Map<String,Object> params = new HashMap<>();
 		params.put("name","a");
@@ -103,19 +104,36 @@ public class TestMybatis {
 		/*System.out.println("多条件查询");
         Map<String,Object> params = new HashMap<>();
         //params.put("name","a");
-        params.put("price","10");
+        //params.put("price","10");
         List<Product> ps2 = session.selectList("listProduct",params);
         for (Product p : ps2) {
             System.out.println(p);
         }  */
-		Product p = new Product();
-		p.setId(6);
-		p.setName("product z");
-		p.setPrice(92);
-		session.update("updateProduct",p);
-		System.out.println("查询更改后的：");
+		//Product p = new Product();
+		//p.setId(6);
+		//p.setName("product z");
+		//p.setPrice(92);
+		//session.update("updateProduct",p);
+		//System.out.println("查询更改后的：");
 		
-		listAll(session);
+		//listAll(session);
+		/*List<Integer> ids = new ArrayList<>();
+		ids.add(1);
+		ids.add(3);
+		ids.add(5);
+		List<Product> ps2 = session.selectList("listProduct",ids);
+		for(Product p : ps2) {
+			System.out.println(p);
+		}*/
+		Map<String, String> params = new HashMap();
+        params.put("name", "product");
+         
+          List<Product> ps = session.selectList("listProduct",params);
+          for (Product p : ps) {
+              System.out.println(p);
+          }
+ 
+		
 		session.commit();
 		session.close();
 	}
