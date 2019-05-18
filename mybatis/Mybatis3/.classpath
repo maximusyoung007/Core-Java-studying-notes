@@ -6,6 +6,7 @@
 	<classpathentry kind="lib" path="D:/jarInNeed/aopalliance-1.0.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/aspectjweaver.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/aspectjweaver-1.6.9.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/c3p0-0.9.1.2.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/cglib-nodep-2.1_3.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/commons-collections-3.1.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/commons-fileupload-1.2.1.jar"/>
@@ -22,11 +23,13 @@
 	<classpathentry kind="lib" path="D:/jarInNeed/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/javassist-3.7.ga.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/jsqlparser-1.0.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/jstl.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/jta-1.1.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/junit-4.9.jar"/>
-	<classpathentry kind="lib" path="D:/jarInNeed/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/mybatis-3.4.2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/mybatis-generator-core-1.3.5.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/mysql-connector-java-5.0.8-bin.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/ognl-3.0.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.aop-3.1.0.M2.jar"/>
@@ -49,6 +52,7 @@
 	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.web.servlet-3.1.0.M2.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.web.struts-3.1.0.M2.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/org.springframework.web-3.1.0.M2.jar"/>
+	<classpathentry kind="lib" path="D:/jarInNeed/pagehelper-5.1.0-beta2.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/servlet-api.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/spring-aop-3.2.0.M1.jar"/>
@@ -73,6 +77,5 @@
 	<classpathentry kind="lib" path="D:/jarInNeed/spring-webmvc-portlet-3.2.0.M1.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/standard.jar"/>
 	<classpathentry kind="lib" path="D:/jarInNeed/xwork-core-2.2.1.jar"/>
-	<classpathentry kind="lib" path="D:/jarInNeed/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
