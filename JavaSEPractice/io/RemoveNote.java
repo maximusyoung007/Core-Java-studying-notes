@@ -49,17 +49,6 @@ public class RemoveNote {
 						bw.println(line);
 				}
 			}
-			//确实已经在Hero3.java中去除了注释，但为啥没有正确输出，以后再看吧...
-			FileReader fd2 = new FileReader(f2);
-			BufferedReader br2 = new BufferedReader(fd2);
-			System.out.println("去除文件之后：");
-			while(true) {
-				String line = br2.readLine();
-				if(line == null)
-					break;
-				System.out.println(line);
-			}
-			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -67,6 +56,21 @@ public class RemoveNote {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		try(FileReader fd2 = new FileReader(f2);
+			BufferedReader br2 = new BufferedReader(fd2);) {
+			System.out.println("去除文件之后：");
+			while(true) {
+				String line = br2.readLine();
+				if(line == null)
+					break;
+				System.out.println(line);
+			}
+		}
+		catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
 	}
-
 }
