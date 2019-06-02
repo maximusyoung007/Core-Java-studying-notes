@@ -9,6 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import pojo.Category;
 import service.CategoryService;
+import util.Page;
 
 @Controller
 @RequestMapping("")
@@ -18,12 +19,18 @@ public class CategoryController {
 	
 	//通过@RequestMapping映射访问路径/listCategory路径到方法listCategory()
 	@RequestMapping("listCategory")
-	public ModelAndView listCategory() {
-		ModelAndView mav = new ModelAndView();
-		List<Category> cs = categoryService.list();
-		
-		mav.addObject("cs",cs);
-		mav.setViewName("listCategory");
-		return mav;
-	}
+    public ModelAndView listCategory(Page page){
+     
+        ModelAndView mav = new ModelAndView();
+        List<Category> cs= categoryService.list(page);
+        int total = categoryService.total();
+         
+        page.caculateLast(total);
+         
+        // 放入转发参数
+        mav.addObject("cs", cs);
+        // 放入jsp路径
+        mav.setViewName("listCategory");
+        return mav;
+    }
 }
