@@ -7,6 +7,6 @@ import util.Page;
 
 public interface CategoryService {
 	List<Category> list();
-	int total();
-	public List<Category> list(Page page); 
+	//int total();
+	//public List<Category> list(Page page); 
 }

@@ -15,7 +15,7 @@ import util.Page;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:applicationContext.xml")
 public class SSMTest {
-	@Autowired
+	/*@Autowired
 	CategoryMapper categoryMapper;
 	
 	@Test
@@ -32,5 +32,5 @@ public class SSMTest {
         for (Category c : cs) {
             System.out.println(c.getName());
         }
-    }
+    }*/
 }

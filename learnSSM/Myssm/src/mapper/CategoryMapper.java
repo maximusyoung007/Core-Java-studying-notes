@@ -11,6 +11,6 @@ public interface CategoryMapper {
 	public Category get(int id);
 	public int update(Category category);
 	public List<Category> list();
-	public List<Category> list(Page page);
-	public int total();
+	//public List<Category> list(Page page);
+	//public int total();
 } 

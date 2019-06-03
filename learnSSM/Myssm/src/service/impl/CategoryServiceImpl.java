@@ -19,11 +19,11 @@ public class CategoryServiceImpl implements CategoryService{
 		return categoryMapper.list();
 	}
 	
-	public int total() {
+	/*public int total() {
 		return categoryMapper.total();
 	}
 	
 	public List<Category> list(Page page){
 		return categoryMapper.list(page);
-	}
+	}*/
 }
