@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Example</title>
+		<script src="angular-1.5.8/angular.min.js"></script>
+		<script type="text/javascript">
+			console.log("Hello");
+			console.log("this is a statement");
+			console.log("this is also a statement");
+			function myfun1(){
+				console.log("this is a statement in function")
+			}
+			function myfun2(name,weather){
+				console.log("my name is " + name)
+				console.log("today is " + weather + "!")
+			}
+			function myfun3(name){
+				return ("my name is " + name)
+			}
+			console.log(myfun3("ywj"))
+			myfun2("adam","rainy")
+			myfun1()
+			
+			var daysInWeek = 7
+			var pi = 3.14
+			var hexValue = 0xFFF
+			console.log(angular.isNumber(7) + " " + angular.isNumber("Hello"))
+			
+			var myData = new Object()
+			myData.name = "ywj"
+			myData.weather = "sunny"
+			
+			myData2 = {
+				name:"ywj",
+				weather:"sunny",
+				printMessages:function(){
+					console.log("Hello" + this.name + ".")
+					console.log("Today is " + this.weather + ".")
+				}
+			}
+			myData2.printMessages()//用对象调用函数
+			myData2.sayHello = function(){
+				console.write("Hello")
+			}
+			
+			for(var prop in myData2){
+				console.log("Name:" + prop + " Value:"  + myData2[prop])
+			}
+			angular.forEach(myData2,function(value,key){
+				console.log("Name:" + key + " Value:" + value)
+			})
+			
+			var hasName = "name" in myData2
+			var myExtendedObject = {
+				city:"tokyo"
+			}
+			angular.extend(myExtendedObject,myData2)//将myData2的属性和函数复制给myExtendedObject
+			console.log(myExtendedObject.name)
+			console.log(myExtendedObject.city)
+			//console.log("Hello" + myData2.name + ".")
+			//console.log("Today is " + myData2.weather + ".")
+			console.log("is Object:" + angular.isObject(myData));
+			console.log("if has name:" + hasName)
+			
+			var myArry = new Array()
+			myArry[0] = 100
+			myArry[1] = "ywj"
+			myArry[2] = true
+			
+			for(var ma in myArry)
+			console.log(myArry[ma])
+			
+			angular.forEach(myArry,function(value,key){
+				console.log(key + ":" + value)
+			})
+		</script> 
+	</head>
+	<body>
+		this is a simple example
+	</body>
+</html>
