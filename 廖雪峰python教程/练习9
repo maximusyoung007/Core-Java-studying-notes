@@ -1,0 +1,11 @@
+'''
+以下函数允许计算两个数的乘积，请稍加改造，变成可接收一个或多个数并计算乘积：
+'''
+def product(*number):
+    sum = 1
+    for num in number:
+        sum = num * sum
+    return sum
+
+sum = product(1,2,3,4)
+print(sum)
